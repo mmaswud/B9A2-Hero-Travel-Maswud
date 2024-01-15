@@ -1,0 +1,60 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+#logo-1 {
+    width: 48px;
+    height: 56px;
+}
+
+.logo-head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#travel {
+    color: #131318;
+}
+
+.nav-title {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.container ul li {
+    list-style: none;
+}
+
+
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 44px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#home {
+    color: #FF5400;
+    font-weight: 700;
+}
+
