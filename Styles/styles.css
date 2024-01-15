@@ -105,6 +105,7 @@ body {
     font-weight: 400;
     padding-left: 15px;
     border: none;
+    outline: none;
 }
 
 #two {
@@ -117,6 +118,7 @@ body {
     font-weight: 400;
     padding-left: 15px;
     border: none;
+    outline: none;
 }
 
 #three {
@@ -129,6 +131,7 @@ body {
     font-weight: 400;
     padding-left: 15px;
     border: none;
+    outline: none;
 }
 
 .btn-one {
@@ -142,6 +145,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     border: none;
+    outline: none;
 }
 
 .popular {
@@ -178,6 +182,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     border: none;
+    outline: none;
 }
 
 .destination .destination-sec {
@@ -213,9 +218,11 @@ body {
     margin: 24px auto;
     gap: 24px;
 }
-#img-1{
+
+#img-1 {
     position: relative;
 }
+
 #maldives {
     position: absolute;
     bottom: 100px;
@@ -225,9 +232,11 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-#img-2{
+
+#img-2 {
     position: relative;
 }
+
 #indonesia {
     position: absolute;
     bottom: 100px;
@@ -237,9 +246,11 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-#img-3{
+
+#img-3 {
     position: relative;
 }
+
 #srilanka {
     position: absolute;
     bottom: 100px;
@@ -249,9 +260,11 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-#img-4{
+
+#img-4 {
     position: relative;
 }
+
 #north-america {
     position: absolute;
     bottom: 100px;
@@ -261,9 +274,11 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-#img-5{
+
+#img-5 {
     position: relative;
 }
+
 #kashmir {
     position: absolute;
     bottom: 100px;
@@ -273,9 +288,11 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-#img-6{
+
+#img-6 {
     position: relative;
 }
+
 #bangladesh {
     position: absolute;
     bottom: 100px;
@@ -285,9 +302,11 @@ body {
     font-size: 28px;
     font-weight: 800;
 }
-#img-7{
+
+#img-7 {
     position: relative;
 }
+
 #bandarban {
     position: absolute;
     bottom: 100px;
@@ -296,4 +315,148 @@ body {
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
+}
+
+.choose .choose-sec {
+    text-align: center;
+}
+
+.choose .choose-sec .choose-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose .choose-sec .choose-txt {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.choose .hotel-map {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+.choose .hotel-map .hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 50%;
+    padding: 32px 55px 32px 32px;
+}
+
+.choose .hotel-map .map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 50%;
+    padding: 32px 55px 32px 32px;
+}
+
+.choose .price-tag {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 300px;
+    margin-bottom: 100px;
+    padding: 32px 55px 32px 32px;
+}
+
+.newsletter {
+    display: flex;
+    gap: 24px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.newsletter .newsletter-content {
+    padding: 40px;
+    border: 1px solid #FF5400;
+    border-radius: 20px;
+}
+
+.newsletter .newsletter-content h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter .newsletter-content p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+#news-input {
+    display: flex;
+    flex-direction: column;
+}
+
+#news-name {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 15px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+}
+
+#news-email {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-left: 15px;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+}
+
+#news-img {
+    position: relative;
+}
+
+#seventy {
+    position: absolute;
+    transform: rotate(-20deg);
+    bottom: 60px;
+    right: -15px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    padding: 30px;
+}
+
+#travel {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#save {
+    color: #FFF;    
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 50px;
 }
