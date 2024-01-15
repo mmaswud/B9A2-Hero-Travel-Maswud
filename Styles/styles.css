@@ -460,3 +460,21 @@ body {
     font-weight: 800;
     margin-bottom: 50px;
 }
+#end-travel{
+    color: #131318;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding-bottom: 100px;
+}
+footer .footer-content{
+    padding: 0 284px;
+}
+footer .footer-content img{
+    padding-bottom: 50px;
+    padding-top: 35px;
+}
+footer .footer-content .logo-head{
+    padding-left: 430px;
+}
