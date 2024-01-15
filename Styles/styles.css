@@ -29,7 +29,7 @@ body {
     font-weight: 800;
 }
 
-.container ul li {
+.container .nav-ul li {
     list-style: none;
 }
 
@@ -142,4 +142,158 @@ body {
     font-size: 16px;
     font-weight: 700;
     border: none;
+}
+
+.popular {
+    display: flex;
+    margin: 100px auto;
+    gap: 53px;
+}
+
+.popular .popular-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular .popular-txt,
+.popular-ul,
+.popular-end {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.btn-two {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.destination .destination-sec {
+    text-align: center;
+}
+
+.destination .destination-sec .destination-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.destination .destination-sec .destination-txt {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+
+.destination .desti-img {
+    margin-bottom: 100px;
+}
+
+.destination .desti-img .desti-img-one,
+.desti-img-two,
+.desti-img-three {
+    display: flex;
+    margin: 24px auto;
+    gap: 24px;
+}
+#img-1{
+    position: relative;
+}
+#maldives {
+    position: absolute;
+    bottom: 100px;
+    left: 220px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-2{
+    position: relative;
+}
+#indonesia {
+    position: absolute;
+    bottom: 100px;
+    left: 220px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-3{
+    position: relative;
+}
+#srilanka {
+    position: absolute;
+    bottom: 100px;
+    left: 140px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-4{
+    position: relative;
+}
+#north-america {
+    position: absolute;
+    bottom: 100px;
+    left: 140px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-5{
+    position: relative;
+}
+#kashmir {
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-6{
+    position: relative;
+}
+#bangladesh {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+#img-7{
+    position: relative;
+}
+#bandarban {
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
 }
