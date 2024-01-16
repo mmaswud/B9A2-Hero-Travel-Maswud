@@ -453,28 +453,125 @@ body {
 }
 
 #save {
-    color: #FFF;    
+    color: #FFF;
     text-align: center;
     font-family: Mulish;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 50px;
 }
-#end-travel{
+
+#end-travel {
     color: #131318;
 }
-footer{
+
+footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
     padding-bottom: 100px;
 }
-footer .footer-content{
+
+footer .footer-content {
     padding: 0 284px;
 }
-footer .footer-content img{
+
+footer .footer-content img {
     padding-bottom: 50px;
     padding-top: 35px;
 }
-footer .footer-content .logo-head{
+
+footer .footer-content .logo-end {
+    display: flex;
+    gap: 10px;
+    align-content: center;
     padding-left: 430px;
+}
+
+.end-title {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 0px;
+    }
+    .banner {
+        height: auto;
+        width: auto;
+        width: 100%;
+    }
+
+    .banner .banner-texts {
+        padding-top: 0;
+    }
+
+    .banner .banner-texts p {
+        padding: 0;
+        margin: 0;
+        color: #FFF;
+    }
+
+    .banner .banner-input {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        max-width: 200px;
+    }
+
+    #one {
+        width: 154px;
+    }
+
+    .popular {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .popular .popular-txt {}
+
+    .destination .destination-sec .destination-txt {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .destination .desti-img .desti-img-one,
+    .desti-img-two,
+    .desti-img-three {
+        flex-direction: column;
+        align-items: center;
+    }  
+     
+    .choose .choose-sec .choose-txt {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .choose .hotel-map {
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    .choose .price-tag {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        width: 50%;
+        margin: 0;
+        margin-left: 100px;
+        margin-bottom: 24px;
+    }
+    .newsletter {
+        flex-direction: column;
+    }
+    footer .footer-content {
+        padding: 0;
+    }
+    footer .footer-content .logo-end {
+        padding-left: 150px;
+    }
+
 }
