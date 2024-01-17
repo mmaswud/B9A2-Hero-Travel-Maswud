@@ -466,6 +466,7 @@ body {
     width: 324px;
     height: 120px;
     padding: 30px;
+    padding-top: 80px;
 }
 
 #travel {
@@ -485,6 +486,72 @@ body {
     color: #131318;
 }
 
+/* bonus sec */
+
+.bonus .bonus-heading {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.bonus .bonus-txt {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.bonus .bonus-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.bonus .bonus-collection .img-div {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.bonus .bonus-collection .bonus-head {
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.bonus .bonus-collection .bonus-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.bonus .bonus-collection .bonus-txt {
+    color: #5A5A5D;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#btn-three {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin-left: 985px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* bonus end */
 footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
@@ -515,12 +582,14 @@ footer .footer-content .logo-end {
 }
 
 @media screen and (max-width: 576px) {
-    .nav-sec .nav-ul{
+    .nav-sec .nav-ul {
         display: none;
     }
+
     #hamburger-icon {
         display: block;
     }
+
     .banner {
         width: 100%;
     }
@@ -725,7 +794,7 @@ footer .footer-content .logo-end {
         height: 40px;
         bottom: 30px;
         right: 25px;
-
+        padding-top: 20px;
     }
 
     #travel {
