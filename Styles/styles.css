@@ -892,7 +892,18 @@ footer .footer-content .logo-end {
     .destination .desti-img {
         margin-bottom: 0;
     }
-
+    .deals .maldives-package {
+        margin: 0;
+        padding: 1px;
+    }
+    .deals-two .malaysia-package{
+        margin: 0;
+        padding: 1px;
+    }
+    .deals-three .vietnam-package {
+        margin: 0;
+        padding: 1px;
+    }
     .choose .choose-sec .choose-title {
         font-size: 20px;
     }
