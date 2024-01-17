@@ -395,11 +395,157 @@ body {
     line-height: 24px;
 }
 
+/* deals & discounts style starts */
+
+.deals-heading h1 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.deal-head {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.deal-txt {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deal-price {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.btn-package{    
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    margin-left: 800px;
+    margin-top: 48px;
+}
+.deals {
+    border-radius: 16px;
+    background: url('../Images/Group-39.png');
+    height: 500px;
+    position: relative;
+    margin-top: 24px;
+}
+
+.deals .icons-share {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.deals .icons-share img {
+    height: 24px;
+    width: 24px;
+}
+
+.deals .maldives-package {
+    position: absolute;
+    top: 56px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 0 56px 56px 535px;
+    padding: 52px;
+}
+
+.deals-two {
+    border-radius: 16px;
+    background: url('../Images/Group-40.png');
+    height: 500px;
+    position: relative;
+    margin-top: 24px;
+}
+
+.deals-two .icons-share {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.deals-two .icons-share img {
+    height: 24px;
+    width: 24px;
+}
+
+.deals-two .malaysia-package {
+    position: absolute;
+    top: 56px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 0 535px 56px 56px;
+    padding: 52px;
+}
+
+.deals-three {
+    border-radius: 16px;
+    background: url('../Images/Group-13.png');
+    height: 500px;
+    position: relative;
+    margin-top: 24px;
+}
+
+.deals-three .icons-share {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.deals-three .icons-share img {
+    height: 24px;
+    width: 24px;
+}
+
+.deals-three .vietnam-package {
+    position: absolute;
+    top: 56px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 0 56px 56px 535px;
+    padding: 52px;
+}
+
+/* deals & discounts style ends */
 .newsletter {
     display: flex;
     gap: 24px;
     position: relative;
     margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.newsletter img {
+    width: 640px;
 }
 
 .newsletter .newsletter-content {
@@ -459,14 +605,13 @@ body {
 #seventy {
     position: absolute;
     transform: rotate(-20deg);
-    bottom: 60px;
-    right: -15px;
+    bottom: 50px;
+    right: 15px;
     border-radius: 16px;
     background: #FF5400;
     width: 324px;
     height: 120px;
-    padding: 30px;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 #travel {
@@ -774,6 +919,10 @@ footer .footer-content .logo-end {
         flex-direction: column;
     }
 
+    .newsletter img {
+        width: 100%;
+    }
+
     #news-name {
         width: 280px;
         height: 52px;
@@ -795,6 +944,7 @@ footer .footer-content .logo-end {
         bottom: 30px;
         right: 25px;
         padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     #travel {
@@ -804,13 +954,16 @@ footer .footer-content .logo-end {
     #save {
         font-size: 19px;
     }
+
     .bonus .bonus-collection {
         grid-template-columns: repeat(1, 1fr);
         padding: 10px;
     }
+
     #btn-three {
         margin-left: 190px;
-    }        
+    }
+
     footer .footer-content {
         padding: 0;
     }
