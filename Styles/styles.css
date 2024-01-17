@@ -804,7 +804,13 @@ footer .footer-content .logo-end {
     #save {
         font-size: 19px;
     }
-
+    .bonus .bonus-collection {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+    #btn-three {
+        margin-left: 190px;
+    }        
     footer .footer-content {
         padding: 0;
     }
